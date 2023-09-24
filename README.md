@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-base-hypergeometric/tags). For example,
+
+```javascript
 import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@v0.1.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@esm/index.mjs';
 ```
 
 #### hypergeometric( N, K, n )
@@ -400,7 +405,7 @@ var o = rand.toJSON();
 <body>
 <script type="module">
 
-import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@v0.1.0-esm/index.mjs';
+import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@esm/index.mjs';
 
 var seed;
 var rand;
