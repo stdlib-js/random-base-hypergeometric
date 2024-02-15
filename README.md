@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@esm/index.mjs';
+import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@v0.2.0-esm/index.mjs';
 ```
 
 #### hypergeometric( N, K, n )
@@ -400,7 +400,7 @@ var o = rand.toJSON();
 <body>
 <script type="module">
 
-import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@esm/index.mjs';
+import hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-hypergeometric@v0.2.0-esm/index.mjs';
 
 var seed;
 var rand;
