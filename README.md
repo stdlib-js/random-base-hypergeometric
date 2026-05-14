@@ -463,6 +463,7 @@ for ( i = 0; i < 100; i++ ) {
 -   <span class="package-name">[`@stdlib/random-array/hypergeometric`][@stdlib/random/array/hypergeometric]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a hypergeometric distribution.</span>
 -   <span class="package-name">[`@stdlib/random-iter/hypergeometric`][@stdlib/random/iter/hypergeometric]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a hypergeometric distribution.</span>
 -   <span class="package-name">[`@stdlib/random-streams/hypergeometric`][@stdlib/random/streams/hypergeometric]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from a hypergeometric distribution.</span>
+-   <span class="package-name">[`@stdlib/random-hypergeometric`][@stdlib/random/hypergeometric]</span><span class="delimiter">: </span><span class="description">generate pseudorandom numbers drawn from a hypergeometric distribution.</span>
 
 </section>
 
@@ -553,6 +554,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/random/iter/hypergeometric]: https://github.com/stdlib-js/random-iter-hypergeometric
 
 [@stdlib/random/streams/hypergeometric]: https://github.com/stdlib-js/random-streams-hypergeometric
+
+[@stdlib/random/hypergeometric]: https://github.com/stdlib-js/random-hypergeometric
 
 <!-- </related-links> -->
 
