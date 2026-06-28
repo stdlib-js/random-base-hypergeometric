@@ -1,4 +1,4 @@
-"use strict";var l=function(t,r){return function(){return r||t((r={exports:{}}).exports,r),r.exports}};var S=l(function(ie,O){
+"use strict";var l=function(t,r){return function(){try{return r||t((r={exports:{}}).exports,r),r.exports}catch(e){throw (r=0, e)}};};var S=l(function(ie,O){
 var q=require('@stdlib/assert-is-nonnegative-integer/dist').isPrimitive,m=require('@stdlib/error-tools-fmtprodmsg/dist');function X(t,r,e){return q(t)?q(r)?q(e)?e>t?new RangeError(m('0oR7D',e)):r>t?new RangeError(m('0oR7E',r)):null:new TypeError(m('0oR2m',e)):new TypeError(m('0oR3X',r)):new TypeError(m('0oR2d',t));}O.exports=X
 });var L=l(function(ue,E){
 var v=require('@stdlib/math-base-special-factorial/dist');function Y(t,r,e,i){var n,u,a;for(i<e?(n=v(e)*v(r+e-i)/(v(r+e)*v(e-i)),a=0):(n=v(r)*v(i)/(v(i-e)*v(r+e)),a=i-e),u=t();u>n;)u-=n,n*=(r-a)*(i-a)/((a+1)*(e-i+1+a)),a+=1;return a}E.exports=Y
